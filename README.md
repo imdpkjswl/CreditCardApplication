@@ -6,3 +6,11 @@ This is VTU DBMS 5th Semester Mini Project. Credit Card Approval System is devel
  <img src="https://github.com/deepakjaiswal2018/CreditCardApplication/blob/master/Project_Demo/1.png" width="1080" height="720" />
 
 </p>
+
+ <p align="center"> 
+  <kbd>
+  	<a href="https://github.com/deepakjaiswal2018" target="_blank">
+		<img src="Project_Demo/1.png"></img>
+	</a>
+  </kbd>
+</p>
