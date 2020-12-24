@@ -3,6 +3,6 @@ This is VTU DBMS 5th Semester Mini Project. Credit Card Approval System is devel
 
 ## Credit Card Automation App: 
 <p float="left">
- <img src="https://github.com/deepakjaiswal2018/CreditCardApplication/blob/master/Project_Demo/1.png" width="260" height="450" />
+ <img src="https://github.com/deepakjaiswal2018/CreditCardApplication/blob/master/Project_Demo/1.png" width="1080" height="720" />
 
 </p>
