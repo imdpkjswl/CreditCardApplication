@@ -9,6 +9,13 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+/**
+ * Before sending mail, First enable SMTP from your gmail settings.
+ * Also, disable less secure app feature from your google account.
+ * Now you are ready to send mail from this program.
+ */
+
+
 public class MailSendingDemo
 {
     static Properties properties = new Properties();
@@ -23,13 +30,13 @@ public class MailSendingDemo
         try {
             Authenticator auth = new Authenticator() {
                 public PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("miniprojectcard@gmail.com", "amitdeepak");
+                    return new PasswordAuthentication("deepakjaiswal.18cs@saividya.ac.in", "YOUR PASSWORD");
                 }
             };
             Session session = Session.getInstance(properties, auth);
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("miniprojectcard@gmail.com"));
-            message.setRecipient(Message.RecipientType.TO, new InternetAddress("deepakjaiswal.18cs@saividya.ac.in"));
+            message.setFrom(new InternetAddress("deepakjaiswal.18cs@saividya.ac.in"));
+            message.setRecipient(Message.RecipientType.TO, new InternetAddress("deepakjaiswal1950@gmail.com"));
             message.setSentDate(new Date());
             message.setSubject("Test Mail");
             message.setText("Hi\nMail sent successfully!!!");
