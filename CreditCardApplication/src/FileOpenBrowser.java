@@ -10,7 +10,7 @@ public class FileOpenBrowser implements ActionListener
     FileOpenBrowser()
     {
         try {
-            File urlDesktop = new File("C:\\Users\\DEEPAK JAISWAL\\Desktop\\MiniProject\\CreditCardApplication\\FAQs.pdf");
+            File urlDesktop = new File("D:\\#CODE SECTION\\CreditCardApplication\\CreditCardApplication\\FAQs.pdf");
             Desktop.getDesktop().open(urlDesktop);
             new Services().setVisible(true);
         } catch (IOException e) {

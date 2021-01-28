@@ -139,7 +139,7 @@ public class Signup2 extends JFrame implements ActionListener{
 
 
         try {
-            final Image backgroundImage = javax.imageio.ImageIO.read(new File("C:\\Users\\DEEPAK JAISWAL\\Desktop\\MiniProject\\CreditCardApplication\\3.jpg"));
+            final Image backgroundImage = javax.imageio.ImageIO.read(new File("D:\\#CODE SECTION\\CreditCardApplication\\CreditCardApplication\\3.jpg"));
             setContentPane(new JPanel(new BorderLayout()) {
                 @Override public void paintComponent(Graphics g) {
                     g.drawImage(backgroundImage, 0, 0, null);
