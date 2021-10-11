@@ -1,6 +1,13 @@
 # Go to C:\xampp\mysql\bin and run cmd then follow queries:
-For Login to database
+
+#For Login to database
 mysql -u root -p -h localhost
+
+------------------------------------------------------------------------
+
+create database miniproject;
+USE miniproject;
+
 ------------------------------------------------------------------------
 
 

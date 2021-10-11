@@ -1,0 +1,16 @@
+step1: open xampp and create database with given queries.
+
+step2: Now, directly import in Intellij and it automatically download maven plugins.
+
+step3: At last, Change all path name with your current path name. like 
+D:\\#CODE SECTION\\MiniProject\\CreditCardApplication\\3.jpg    -->   D:\\#CODE SECTION\\CreditCardApplication\\3.jpg
+
+step4: Now run Xampp server[make database name should match with given  database name in project]
+
+step5: then, Run CreditCardApplication.java file and its DONE.
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+Note1: Make sure your are using java 11LTS  compiler otherwise it may take you to setup version.
+Note2: No need to download and install Maven plugin, it will done automatically. 
